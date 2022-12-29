@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlularios</title>
+</head>
+<body>
+<form >
+    <h1>
+        Nombre
+    </h1>
+
+    <input 
+    type="text"
+    name="Un nombre"
+    placeholder="Ingresa tu Nombre"
+    maxlength="10"
+    minlength="2"
+    required
+    
+    /> 
+    <br>
+
+    <h1>
+    Apellidos
+    </h1>
+    
+    <input 
+    type="text"
+    name="apellidos"
+    placeholder="Ingresa Tu Apellidos"
+    maxlength="20"
+    minlength="2"
+    required
+    />
+    <br>
+    <h1>Ingresa Tu Edad</h1>
+    <input 
+    type="number"
+    name="Dime Tu Edad"
+    placeholder="Ingresa Tu Edad"
+    max="150"
+    min="1"
+    required
+    />
+    <br>
+    <br>
+    <h1>Ingresa Tu contraseña</h1>
+    <input 
+    type="password"
+    name="Tu contraseña"
+    placeholder="Ingresa Tu contraseña"
+    maxlength="100"
+    minlength="2"
+    required
+    />
+    <br>
+    <br>
+    <h4>Ingresa Tu Rango De Edad</h4>
+    <label>
+      -0-18
+        <input type="radio"
+        value="0-18"
+        name="edad"
+        
+        />
+    </label>
+    <br>
+    <label>
+        -19-39
+                <input type="radio"
+                value="19-39"
+                name="edad"
+                
+                />
+            </label>
+    <br>
+    <label>
+        -40-79
+                <input type="radio"
+                value="40-79"
+                name="edad"
+                
+                />
+            </label>
+    <br>
+    <label>
+        -80-120
+        
+                <input type="radio"
+                value="80-120"
+                name="edad"
+                
+                />
+            </label>
+    <br>
+    <br>
+    <input type="time"
+    name="hora"
+    
+    />
+    <br>
+    <br>
+    <h5>Tu Animal Favorito</h5>
+    <select name="animales">
+<option value="Perro">Perro</option>
+<option value="Gato">Gato</option>
+<option value="Conejo">Conejo</option>
+<option value="Caballo">Caballo</option>
+<option value="Lagartija">Lagartija</option>
+<option value="Pato">Pato</option>
+
+    </select>
+    <br>
+
+    <h5>
+        Danos Tu Opinion Sobre La Pagina
+    </h5>
+
+    <textarea
+     name="opiniones sobre la pagina"
+     rows="10"
+     cols="40"
+     
+     
+     >
+
+    </textarea>
+    <br>
+
+    <input type="file"
+    name="imagene de nota"
+    />
+    <br>
+    <br>
+
+
+    <!--LABEL-->
+    <label>
+        Aceptas los terminos y condicciones 
+    <input 
+    type=checkbox
+    name="condicciones"
+    />
+</label>
+<br>
+<br>
+<label>
+    Aceptas envios de correos
+    <input 
+    type=checkbox
+    name="condicciones"
+    />
+</label>
+    <br>
+    <br>
+ <button
+  type="submit">
+  enviar
+
+ </button>
+</form>
+</body>
+</html>
